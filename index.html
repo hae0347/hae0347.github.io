@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Doppio+One' rel='stylesheet' type='text/css'>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>hAe2016</title>
+        <style>
+            body{
+                color:white;
+            }
+            h2{
+                font-family: 'Lobster', cursive;
+                color: white;
+            }
+            a{
+                color: #ff9900;
+            }
+            footer{
+                display: block;
+                text-align: center;
+                width: 100%;
+                font-family: 'Doppio One', sans-serif;
+            }
+        
+            /*Main menu bar bg style*/
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+            /*Items' block style of menu bar*/
+            li {
+                float: left;
+            }
+            /*Items' inner style of menu bar*/
+            li a , .dropbtn{
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            /* Change the link color to #111 (black) on hover */
+            li a:hover ,.dropdown:hover .dropbtn{
+                background-color: #ff9900;
+            }
+            /*Color of menu bar item when activated(selected)*/
+            .active{
+                background-color: #ff9900;
+            }
+            
+            /*DROPDOWN AREA*/
+            li.dropdown{
+                display: inline-block;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #f1f1f1
+                }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+        </style>
+    </head>
+    <body bgcolor="black">
+        <p>
+            <center><h2>hae0347 github io<BR></h2></center>
+        </p>
+        
+        <!--Menu Bar-->
+        <ul>
+            <li><a class="acive" href="">Home</a></li>
+            <li><a class="acive" href="">About</a></li>
+            <li class="dropdown"><a href="#" class = "dropbtn">Projects</a>
+                <div class="dropdown-content">
+                    <a href="#">JavaCalculator</a>
+                    <a href="#">reserved</a>
+                </div>
+            </li>
+            <li><a class="acive" href="">Home</a></li>
+        </ul>
+        
+        <footer>
+            <p>By hae0347 © 2016 This website is for github use only.</p>
+        </footer>
+        
+    </body>
+
+</html>
